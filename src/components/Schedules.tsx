@@ -58,7 +58,7 @@ const Card2 = ({
 }) => {
   return (
     <a href={link} target="_blank">
-      <div className="relative border-1 border-gray-400 rounded-lg shadow-xl w-[80vw] sm:w-xs md:flex md:flex-col block justify-between h-[200px]">
+      <div className="relative border-1 border-gray-400 rounded-lg shadow-xl w-[80vw] sm:w-xs flex flex-col justify-between h-[200px]">
         <div className="flex justify-center py-3">
           <p className="font-bold text-xl">{title}</p>
         </div>
@@ -77,7 +77,7 @@ const Card2 = ({
         </div>
 
         <div
-          className="absolute bottom-0 w-full flex h-14 justify-center text-white items-center px-4 rounded-b-lg py-2"
+          className="w-full flex h-14 justify-center text-white items-center px-4 rounded-b-lg py-2"
           style={{ backgroundColor: "#464646" }}
         >
           <img src={icon} alt="icon" />
@@ -107,7 +107,7 @@ const Card3 = ({
 }) => {
   return (
     <a href={link} target="_blank">
-      <div className="relative border-1 border-gray-400 rounded-lg shadow-xl w-[80vw] sm:w-xs md:flex md:flex-col block justify-between h-[200px]">
+      <div className="relative border-1 border-gray-400 rounded-lg shadow-xl w-[80vw] sm:w-xs flex flex-col justify-between h-[200px]">
         <div className="flex justify-center py-3">
           <p className="font-bold text-xl">{title}</p>
         </div>
@@ -121,7 +121,7 @@ const Card3 = ({
         </div>
 
         <div
-          className="absolute bottom-0 w-full flex h-14 justify-center text-white items-center px-4 rounded-b-lg py-2"
+          className="w-full flex h-14 justify-center text-white items-center px-4 rounded-b-lg py-2"
           style={{ backgroundColor: "#464646" }}
         >
           <img src={icon} alt="icon" />
